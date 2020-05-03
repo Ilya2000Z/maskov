@@ -3,3 +3,15 @@
     color: white;
     font-size: 40px
 }
+.a {
+    fill: none;
+    stroke: #a79163;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+.scrolldown {
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+    transform: translateX(50%);
+}
