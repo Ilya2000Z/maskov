@@ -42,9 +42,11 @@
           <br>
           <br>
           
-         
+         <br>
+         <br>
+         <br>
 		<img  alt="Логотип Мясковъ" class="img-fluid mx-auto d-block" src="img/%D0%A1%D1%82%D0%B0%D1%80%D1%82_1.png" width="600px" >
-		<h2   class="text_start text-center  ">Из Крыма с любовью</h2>
+		<h2   class="text_start text-center fat ">Из Крыма с любовью</h2>
             <div id="nav_sections"></div>
        <i id="some_id" class="  far fa-arrow-alt-circle-down text-center mx-auto d-block" style="font-size: 60px; color:#993333;  "></i>
             <br>
@@ -52,7 +54,10 @@
 	
 </div>
     </div>
-
+<script>
+      
+      
+      </script>
 
 
       <script>
@@ -60,14 +65,23 @@
           
           
           (function (){ document.addEventListener('DOMContentLoaded', initTest); 
+                       
         function initTest(e){ const someElemId = "some_id"; 
      var distance = document.getElementById("nav_sections").getBoundingClientRect();
-                    var mergen = distance.bottom;
-                         console.log(distance.bottom); 
-                             console.log(mergen);
-                             var n = mergen.toString();
-                             var k = "margin-top:"+n+"px;"+"color:#993333;"+"font-size: 60px;";
+                    var mergen = distance.top;
+                        console.log(mergen);
+                             var d = document.getElementById("nav_sections");
+                            var topPos = d.offsetTop;
+                             console.log(topPos);
+                              console.log(window.innerHeight);
+                             var a = window.innerHeight;
+                            var b = a-mergen-76;
+                             console.log(b);
+                             var t= b.toString();
+                             var k = "margin-top:"+t+"px;"+"color:#993333;"+"font-size: 60px;";
                              console.log(k);
+                            
+                         
         let someTestElem = document.getElementById('some_id'); 
         if (!someTestElem ){return;} 
         someTestElem.style.cssText = k;}})()
