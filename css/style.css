@@ -15,3 +15,21 @@
     right: 50%;
     transform: translateX(50%);
 }
+.hr_set{
+    color:#a79163; border: 2px solid; ;
+    margin-top: 25px
+    
+}
+.asc-desc-images-top {
+    padding: 5px 0;
+    width: 306;
+}
+.asc-desc-images-left {
+    padding: 5px 5px 0 0;
+    width: 175;
+}
+
+.asc-desc-images-right {
+    padding: 5px 0 0 5px;
+    width: 175;
+}
