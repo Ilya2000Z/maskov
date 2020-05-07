@@ -36,7 +36,15 @@
 .font6 {
 	font-family: 'Gabriela', serif;
 	color: white;
-	font-size: 1.7vw;
+	font-size: 2vw;
+
+
+}
+
+.font7 {
+	font-family: 'Gabriela', serif;
+	color: grey;
+	font-size: 1.5vw;
 
 }
 
@@ -46,11 +54,15 @@
 }
 
 
-.btn-bg-color {
+.bg_btn {
 	background-color: red;
-
 }
 
-.btn-bg-color: hover {
+.bg_color: hover {
 	background-color: gold;
+}
+
+.bordered {
+	border: 4px solid red;
+	border-radius: 10px;
 }
